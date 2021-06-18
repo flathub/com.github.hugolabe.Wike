@@ -10,10 +10,12 @@
     "--socket=fallback-x11",
     "--socket=wayland",
     "--socket=pulseaudio",
-    "--device=dri"
+    "--device=dri",
+    "--own-name=com.github.hugolabe.Wike.SearchProvider"
   ],
   "modules" : [
-  	"python3-requests.json",
+    "python3-dbus-python.json",
+    "python3-requests.json",
     {
       "name" : "wike",
       "buildsystem" : "meson",
@@ -22,8 +24,8 @@
         {
           "type" : "git",
           "url" : "https://github.com/hugolabe/Wike.git",
-          "tag" : "1.4.2",
-          "commit" : "6f5b8425c4b4c16b0979a3fcaa3203ecdaecd807"
+          "tag" : "1.5.0",
+          "commit" : "c8b3e004699081e7d438935f6c2bda33340e09f3"
         }
       ]
     }
