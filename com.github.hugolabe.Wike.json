@@ -1,7 +1,7 @@
 {
   "app-id" : "com.github.hugolabe.Wike",
   "runtime" : "org.gnome.Platform",
-  "runtime-version" : "40",
+  "runtime-version" : "42",
   "sdk" : "org.gnome.Sdk",
   "command" : "wike",
   "finish-args" : [
@@ -24,8 +24,8 @@
         {
           "type" : "git",
           "url" : "https://github.com/hugolabe/Wike.git",
-          "tag" : "1.7.1",
-          "commit" : "cacc5b11058536b9a9385e9bd05cd740ee8e20f0"
+          "tag" : "1.7.2",
+          "commit" : "b67cba9bc9d8c005d6165c6c301e9d02e065ab57"
         }
       ]
     }
