@@ -24,8 +24,8 @@
         {
           "type" : "git",
           "url" : "https://github.com/hugolabe/Wike.git",
-          "tag" : "1.8.1",
-          "commit" : "544efb1319bd654a625f8f8754e070ac36e6813c"
+          "tag" : "1.8.2",
+          "commit" : "c9940b8e3585375c748ddbdb6373e22c584ff4f9"
         }
       ]
     }
