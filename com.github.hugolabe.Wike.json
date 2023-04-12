@@ -1,7 +1,7 @@
 {
   "app-id" : "com.github.hugolabe.Wike",
   "runtime" : "org.gnome.Platform",
-  "runtime-version" : "43",
+  "runtime-version" : "44",
   "sdk" : "org.gnome.Sdk",
   "command" : "wike",
   "finish-args" : [
@@ -10,7 +10,8 @@
     "--socket=fallback-x11",
     "--socket=wayland",
     "--socket=pulseaudio",
-    "--device=dri"
+    "--device=dri",
+    "--filesystem=home"
   ],
   "modules" : [
     "python3-dbus-python.json",
@@ -23,8 +24,8 @@
         {
           "type" : "git",
           "url" : "https://github.com/hugolabe/Wike.git",
-          "tag" : "1.8.3",
-          "commit" : "bec72da13833308d2c956bb21e52606bcad8985b"
+          "tag" : "2.0.0",
+          "commit" : "4ff159fe9c129d3862aba791f97aae79917f4e35"
         }
       ]
     }
