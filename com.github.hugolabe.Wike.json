@@ -14,7 +14,6 @@
     "--filesystem=home"
   ],
   "modules" : [
-    "python3-dbus-python.json",
     "python3-requests.json",
     {
       "name" : "wike",
@@ -24,8 +23,8 @@
         {
           "type" : "git",
           "url" : "https://github.com/hugolabe/Wike.git",
-          "tag" : "2.0.1",
-          "commit" : "65c0b74f8f152cc1d109833f36f2fdf882350ad3"
+          "tag" : "2.1.0",
+          "commit" : "1dfa921580a7762bde7d65ce2db4fbb878696b0b"
         }
       ]
     }
