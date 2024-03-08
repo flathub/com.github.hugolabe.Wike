@@ -1,7 +1,7 @@
 {
   "app-id" : "com.github.hugolabe.Wike",
   "runtime" : "org.gnome.Platform",
-  "runtime-version" : "44",
+  "runtime-version" : "45",
   "sdk" : "org.gnome.Sdk",
   "command" : "wike",
   "finish-args" : [
@@ -14,7 +14,6 @@
     "--filesystem=home"
   ],
   "modules" : [
-    "python3-requests.json",
     {
       "name" : "wike",
       "buildsystem" : "meson",
@@ -23,8 +22,8 @@
         {
           "type" : "git",
           "url" : "https://github.com/hugolabe/Wike.git",
-          "tag" : "2.1.0",
-          "commit" : "1dfa921580a7762bde7d65ce2db4fbb878696b0b"
+          "tag" : "3.0.0",
+          "commit" : "db4caf1ac51b33c6a66ac7d1c190a8f7b1fd4d93"
         }
       ]
     }
