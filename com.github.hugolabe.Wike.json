@@ -10,8 +10,7 @@
     "--socket=fallback-x11",
     "--socket=wayland",
     "--socket=pulseaudio",
-    "--device=dri",
-    "--filesystem=home"
+    "--device=dri"
   ],
   "modules" : [
     {
@@ -22,8 +21,8 @@
         {
           "type" : "git",
           "url" : "https://github.com/hugolabe/Wike.git",
-          "tag" : "3.0.1",
-          "commit" : "fee17e28032f8a507fdc912810bef4735ee130ec"
+          "tag" : "3.1.0",
+          "commit" : "362d82c5df93d19b704693bdb277f4640663c127"
         }
       ]
     }
